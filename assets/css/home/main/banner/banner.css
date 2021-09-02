@@ -1,0 +1,8 @@
+.banner {
+    background-color:var(--main-bg);
+    height: calc(100vh - 100px);
+    background: url('/assets/images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}

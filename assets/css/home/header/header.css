@@ -1,0 +1,12 @@
+header {
+    height: 100px;
+    background-color: var(--head-bg);
+    color: var(--head-color);
+}
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}

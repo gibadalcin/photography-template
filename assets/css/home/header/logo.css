@@ -1,0 +1,11 @@
+.logo {
+    width: 80px;
+}
+.logo__img {
+    background: url('/assets/images/logo.png');
+    background-size: contain;
+    width: 80px;
+    height: 80px; 
+    border: 1px solid var(--head-color-emphasis);
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner h1 span {
+    color: var(--slider-color-emphasis)
+}
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.banner a {
+    display: block;
+    background-color: var(--transparency-black);
+    color: var(--transparency-emphasis);
+    border: 1px solid var(--transparency-emphasis);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 30px;
+    box-shadow: 0px 10px 30px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.banner a:hover {
+    border: 1px solid var(--slider-color-emphasis);
+    color: var(--slider-color-emphasis);
+    background-color: var(--slider-bg);
+   transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+:root {
+    --head-color: #fff;
+    --head-color-light: rgb(230, 230, 230);
+    --head-color-emphasis: #b28756;
+    --head-bg: #000;
+    --main-bg: #333;
+    --transparency-black:rgba(0,0,0, 0.8);
+    --transparency-emphasis: rgba(178,135,86, 0.8);
+
+    --slider-color: #fff;
+    --slider-bg: #000;
+    --slider-color-emphasis: #b28756;
+}
