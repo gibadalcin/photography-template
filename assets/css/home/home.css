@@ -6,10 +6,197 @@
 body {
    font-family: Montserrat, Arial, Helvetica, sans-serif;
    font-size: 13px;
+   overflow-x: hidden;
 }
 
 
+.default {
+    width: 100vw;
+    padding: 50px 0;
+}
+.default .section__title,
+.default .section__desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section__title {
+    font-size: 20px;
+}
+.default .section__desc {
+    font-size: 12px;
+    color: var(--section-default-color_desc);
+    margin: 10px 0 40px 0;
+}
+.default .section__body {
+    max-width: 1140px;
+    margin: auto;
+}
+.default.light {
+    background-color: var(--section-default-bg_light);
+}
+.default.light .section__title,
+.default.light .section__body {
+    color: var(--section-title-light_color);
+}
+
+.default.dark {
+    background-color: var(--section-default-bg_dark);
+}
+.default.dark .section__title,
+.default.dark .section__body {
+    color: var(--section-title-dark_color);
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--button-empashis);
+    color: var(--button-bg_light);
+    border: 1px solid var(--button-empashis);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button:hover {
+   transform: scale(1.1);
+}
 
 
+.section__about-us {
+    display: flex;
+}
 
+.section__about-us_left {
+    flex: 1;
+}
+.section__about-us_left p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.section__about-us_right {
+    width: 520px;
+    text-align: center;
+}
+.section__about-us_right img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.section__services {
+    display: flex;
+}
+.section__service {
+    flex: 1;
+    text-align: center;
+    border-right:1px solid var(--section-service-color_desc);
+    padding: 15px ;
+}
+.section__service:first-child {
+    border-left:1px solid var(--section-service-color_desc);
+}
+.section__service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section__service .default__h4 {
+    margin-top: 26px;
+}
+.section__service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--section-service-color_desc);
+    text-align: center;
+}
+
+
+.section__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__projects--filters {
+    border: 1px solid var(--section-projects-border_filter);
+    background-color: var(--section-projects-dark_filter);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 0px 20px;
+}
+.section__projects--filters ul,
+.section__projects--filters li {
+    list-style: none;
+}
+
+.section__projects--filters li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid var(--section-projects-border_filter);
+    border-bottom: 2px solid var(--section-projects-dark_filter);
+    color: var(--section-projects-color_filter);
+    cursor:pointer;
+    transition: 0.3s;
+}
+.section__projects--filters li:hover,
+.section__projects--filters li.active {
+    border-bottom: 2px solid var(--section-projects-emphasis_filter);
+    color: var(--section-projects-emphasis_filter);
+}
+.section__projects--filters li:first-child {
+    border-left: none;
+}
+
+
+.section__projects--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section__projects--photo {
+    width: 280px;
+}
+.section__projects--photo-area {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.section__projects--photo-area img {
+    width: inherit;
+    height: inherit;
+}
+
+
+.section__projects--photo-info {
+    position: absolute;
+    background-color: var(--section-photo-transparency_info);
+    color: var(--section-photo-color_info);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.section__projects--photo-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.section__projects--photo-area:hover
+.section__projects--photo-info {
+    display: flex;
+}
 

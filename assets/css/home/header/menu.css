@@ -19,11 +19,11 @@
     display: flex;
     align-items: center;
     padding: 0 10px;
-    border-bottom: 5px solid transparent;
-    transition: .3s;
+    border-bottom: 3px solid transparent;
+    transition: .4s;
 }
 .menu li a:hover,
 .menu .active a {
     color: var(--head-color-emphasis);
-    border-bottom: 5px solid var(--head-color-emphasis);
+    border-bottom: 1px solid var(--head-color-emphasis);
 }

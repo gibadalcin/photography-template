@@ -4,10 +4,34 @@
     --head-color-emphasis: #b28756;
     --head-bg: #000;
     --main-bg: #333;
+
     --transparency-black:rgba(0,0,0, 0.8);
     --transparency-emphasis: rgba(178,135,86, 0.8);
 
     --slider-color: #fff;
     --slider-bg: #000;
     --slider-color-emphasis: #b28756;
+
+    --section-title-light_color: #393c41;
+    --section-title-dark_color: #fff;
+    --section-default-bg_light: #f7f7f7;
+    --section-default-bg_dark: #000;
+    --section-default-color_desc: #6e7378;
+    --section-image-shadow: #333;
+
+    --button-bg_light:#f7f7f7;
+    --button-bg_black:#000;
+    --button-empashis: #b28756;
+    --transparency-button:rgba(0,0,0, 0.1);
+
+    --section-service-color_desc: #6e7378;
+
+    --section-projects-border_filter:#6e7378;
+    --section-projects-bg_filter:#DBBD87;
+    --section-projects-color_filter:#fff;
+    --section-projects-dark_filter:#000;
+    --section-projects-emphasis_filter: #b28756;
+
+    --section-photo-transparency_info:rgba(0,0,0, 0.6);
+    --section-photo-color_info: #f7f7f7;
 }

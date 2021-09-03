@@ -1,7 +1,7 @@
 .banner .pointer {
     width: 15px;
     height: 15px;
-    border: 2px solid var(--slider-color-emphasis);
+    border: 1px solid var(--slider-color-emphasis);
     border-radius: 8px;
     margin: 0 5px;
     cursor: pointer;
