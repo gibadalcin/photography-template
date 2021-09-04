@@ -1,0 +1,17 @@
+.section__projects--photo-info {
+    position: absolute;
+    background-color: var(--section-photo-transparency_info);
+    color: var(--section-photo-color_info);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.section__projects--photo-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+}

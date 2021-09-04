@@ -10,6 +10,7 @@
 
     --slider-color: #fff;
     --slider-bg: #000;
+    --slider-transparency-dark:rgba(0,0,0, 0.8);
     --slider-color-emphasis: #b28756;
 
     --section-title-light_color: #393c41;
@@ -34,4 +35,12 @@
 
     --section-photo-transparency_info:rgba(0,0,0, 0.6);
     --section-photo-color_info: #f7f7f7;
+
+    --section-team-bg_transparency: rgba(0,0,0, 0.8);
+    --section-team-slider_bg: #fff;
+    --section-team-slider_name-color: #000;
+    --section-team-slider_role-color: #6e7378;
+    --section-team-slider_social_bg: #fff;
+    --section-team-slider_social_emphasis: #b28756;
+
 }

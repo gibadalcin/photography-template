@@ -1,0 +1,22 @@
+.default {
+    width: 100vw;
+    padding: 50px 0;
+}
+.default .section__title,
+.default .section__desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section__title {
+    font-size: 20px;
+}
+.default .section__desc {
+    font-size: 12px;
+    color: var(--section-default-color_desc);
+    margin: 10px 0 40px 0;
+}
+.default .section__body {
+    max-width: 1140px;
+    margin: auto;
+}

@@ -1,0 +1,7 @@
+.default.light {
+    background-color: var(--section-default-bg_light);
+}
+.default.light .section__title,
+.default.light .section__body {
+    color: var(--section-title-light_color);
+}

@@ -1,0 +1,10 @@
+.section__projects--photo-area {
+    margin: auto;
+    width: 260px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.section__projects--photo-area img {
+    width: inherit;
+    height: inherit;
+}
