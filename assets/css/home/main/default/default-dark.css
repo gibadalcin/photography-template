@@ -1,7 +1,7 @@
 .default.dark {
-    background-color: var(--section-default-bg_dark);
+    background-color: var(--default-bg_dark);
 }
 .default.dark .section__title,
 .default.dark .section__body {
-    color: var(--section-title-dark_color);
+    color: var(--title-color_dark);
 }

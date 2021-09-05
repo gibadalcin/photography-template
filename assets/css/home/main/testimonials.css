@@ -1,0 +1,6 @@
+section.default.testimonials {
+    background-color: var(--testimonials_bg);
+}
+.section__testimonials {
+   overflow: hidden;
+}

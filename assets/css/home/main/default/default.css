@@ -13,7 +13,7 @@
 }
 .default .section__desc {
     font-size: 12px;
-    color: var(--section-default-color_desc);
+    color: var(--default-color_desc);
     margin: 10px 0 40px 0;
 }
 .default .section__body {

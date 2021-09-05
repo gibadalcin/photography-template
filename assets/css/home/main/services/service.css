@@ -1,11 +1,11 @@
 .section__service {
     flex: 1;
     text-align: center;
-    border-right:1px solid var(--section-service-color_desc);
+    border-right:1px solid var(--service-color-desc);
     padding: 15px ;
 }
 .section__service:first-child {
-    border-left:1px solid var(--section-service-color_desc);
+    border-left:1px solid var(--service-color-desc);
 }
 .section__service h4 {
     margin-top: 20px;
@@ -18,6 +18,6 @@
 .section__service p {
     margin-top: 10px;
     font-size: 13px;
-    color: var(--section-service-color_desc);
+    color: var(--service-color-desc);
     text-align: center;
 }

@@ -1,0 +1,102 @@
+/*conteúdo do slider no banner*/
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner h1 span {
+    color: var(--content-color_emphasis);
+    text-align: center;
+}
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.banner a {
+    display: block;
+    background-color: var(--content-transparency_button);
+    color: var(--content-emphasis_button);
+    border: 1px solid var(--content-emphasis_button);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 30px;
+    box-shadow: 0px 10px 30px var(--slider_bg);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.banner a:hover {
+    border: 1px solid var(--content-emphasis_hover);
+    color: var(--content-emphasis_hover);
+    background-color: var(--content-bg_hover);
+    transform: scale(1.1);
+}
+
+/*conteúdo do slider no team*/
+.section__team--avatar {
+    width: 150px;
+    height: auto;
+
+}
+.section__team--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.section__team--role {
+    font-size: 14px;
+    margin-top: 5px;
+    color: var(--team-color_role)
+}
+.section__team--social {
+    display: flex;
+    margin-top: 20px;
+}
+.section__team--social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    background-color: var(--team-bg_social);
+    border-radius: 12px;
+    margin-right: 14px;
+    transition: 0.5s;
+}
+.section__team--social a:last-child {
+    margin-right: 0;
+}
+.section__team--social a:hover {
+    background-color: var(--team-bg_emphasis);
+    transform: scale(1.1);
+}
+
+/*conteúdo do slider no testimonials*/
+.section__testimonials--avatar{
+    width: 150px;
+}
+.section__testimonials--name{
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.section__testimonials--role{
+    font-size: 14px;
+    margin: 5px auto 0 auto;
+    color: var(--testimonials-color_role);
+
+}
+.section__testimonials--quote{
+    width: 20px;
+    margin-top: 30px;
+}
+.section__testimonials--quote_text {
+    font-size: 14px;
+    max-width: 50vw;
+    color: var(--testimonials-color_quote-text);
+    text-align: center;
+    line-height: 20px;
+    margin: 10px 30px 0 30px;
+}

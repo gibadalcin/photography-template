@@ -1,0 +1,20 @@
+/*controla a exibição dos slides do banner posições -ovw/ -100/ -200vw */
+.banner .sliders {
+    width:  1000vw;
+    height: 100%;
+    margin-left: -0vw;
+}
+
+/*controla os slides do team margin-left posições -0px / -320/ -620/ -920px*/
+.section__team .sliders {
+    width:  1000vw;
+    height: 100%;
+    margin-left:0px;
+}
+
+/*controla os slides do testimonials margin-left posições -0vw / -100/ -200*/
+.section__testimonials .sliders {
+    width: 1000vw;
+    height: 100%;
+    margin-left: -0vw;
+}

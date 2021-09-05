@@ -1,0 +1,10 @@
+section.default.companies {
+    background-color: var(--companies_bg);
+    border-top: 1px solid var(--companies_bd);
+    border-bottom: 1px solid var(--companies_bd);
+}
+.companies__area {
+    max-width: initial;
+   display: flex;
+   justify-content: space-around;
+}

@@ -1,46 +1,107 @@
 :root {
+    /*header.css*/
     --head-color: #fff;
-    --head-color-light: rgb(230, 230, 230);
-    --head-color-emphasis: #b28756;
     --head-bg: #000;
-    --main-bg: #333;
 
-    --transparency-black:rgba(0,0,0, 0.8);
-    --transparency-emphasis: rgba(178,135,86, 0.8);
+    /*logo.css*/
+    --logo-border-emphasis: #b28756;
 
-    --slider-color: #fff;
-    --slider-bg: #000;
-    --slider-transparency-dark:rgba(0,0,0, 0.8);
-    --slider-color-emphasis: #b28756;
+    /*menu.css*/
+    --menu-color: rgb(230, 230, 230);
+    --menu-color-emphasis_hover: #b28756;
 
-    --section-title-light_color: #393c41;
-    --section-title-dark_color: #fff;
-    --section-default-bg_light: #f7f7f7;
-    --section-default-bg_dark: #000;
-    --section-default-color_desc: #6e7378;
-    --section-image-shadow: #333;
+    /*sliders/slider.css*/
+    --team-slider_bg: #fff;
+    --transparency_dark:rgba(0,0,0, 0.8);
 
-    --button-bg_light:#f7f7f7;
-    --button-bg_black:#000;
+    /*sliders/slider-area.css*/
+    --team-slider-color_name:#000;
+
+    /*slider-area.css*/
+    --color-area: #fff;
+
+    /*slider-content.css*/
+    --content-color_emphasis: #b28756;
+    --content-transparency_button:rgba(0,0,0, 0.8);
+    --content-emphasis_button: rgba(178,135,86, 0.8);
+    --content-emphasis_hover: #b28756;
+    --content-bg_hover: #000;
+    --slider_bg: #000;
+    --team-color_role: #6e7378;
+    --team-bg_social: #fff;
+    --team-bg_emphasis: #b28756;
+    --testimonials-color_role: #6e7378;
+    --testimonials-color_quote-text: #6e7378;
+
+    /*pointers/pointer.css*/
+    --pointer-color-emphasis:#b28756;
+
+    /*default.css*/
+    --default-color_desc: #6e7378;
+
+    /*default-dark.css*/
+    --default-bg_dark: #000;
+    --title-color_dark: #fff;
+
+    /*default-light.css*/
+    --title-color_light: #393c41;
+    --default-bg_light: #f7f7f7;
+
+    /*projects-photo_info.css*/
+    --photo-info-transparency:rgba(0,0,0, 0.6);
+    --photo-info-color: #f7f7f7;
+    /*projects-filters.css*/
+    --projects-filter-border:#6e7378;
+    --projects-filter-bg:#000000;
+    --projects-filter-color:#fff;
+    --projects-filter-emphasis: #b28756;
+
+    /*home/button.css*/
     --button-empashis: #b28756;
-    --transparency-button:rgba(0,0,0, 0.1);
 
-    --section-service-color_desc: #6e7378;
+    /*service.css*/
+    --service-color-desc: #6e7378;
 
-    --section-projects-border_filter:#6e7378;
-    --section-projects-bg_filter:#DBBD87;
-    --section-projects-color_filter:#fff;
-    --section-projects-dark_filter:#000;
-    --section-projects-emphasis_filter: #b28756;
+    /*team-area.css*/
+    --team-bg_transparency: rgba(0,0,0, 0.8);
 
-    --section-photo-transparency_info:rgba(0,0,0, 0.6);
-    --section-photo-color_info: #f7f7f7;
+    --testimonials_bg: #f7f7f7;
+    --testimonials-bg_transparency: rgba(0,0,0, 0.8);
+    --testimonials_name-color: #000; 
 
-    --section-team-bg_transparency: rgba(0,0,0, 0.8);
-    --section-team-slider_bg: #fff;
-    --section-team-slider_name-color: #000;
-    --section-team-slider_role-color: #6e7378;
-    --section-team-slider_social_bg: #fff;
-    --section-team-slider_social_emphasis: #b28756;
+   /*companies.css*/
+    --companies_bg: #fff;
+    --companies_bd: #ccc;
+
+    /*plans.css*/
+    --price-item_bg:#fff;
+    --price-item-color_name:#393c41;
+    --price-item-color_money:#000;
+    --price-item-color_period:#ccc;
+    --price-item-color_others:#6e7378;
+    --price-item-bg_button:#6e7378;
+    --price-item-emphasis_button:#b28756;
+
+    /*plans.css*/
+    --button-bg_light:#f7f7f7;
+   
+   
+   
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
 
 }

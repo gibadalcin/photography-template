@@ -1,6 +1,6 @@
 .section__projects--filters {
-    border: 1px solid var(--section-projects-border_filter);
-    background-color: var(--section-projects-dark_filter);
+    border: 1px solid var(--projects-filter-border);
+    background-color: var(--projects-filter-bg);
     display: inline-block;
     border-radius: 30px;
     padding: 0px 20px;
@@ -15,16 +15,16 @@
     padding: 10px;
     text-transform: uppercase;
     font-size: 13px;
-    border-left: 1px solid var(--section-projects-border_filter);
-    border-bottom: 2px solid var(--section-projects-dark_filter);
-    color: var(--section-projects-color_filter);
+    border-left: 1px solid var(--projects-filter-border);
+    border-bottom: 2px solid var(--projects-filter-bg);
+    color: var(--projects-filter-color);
     cursor:pointer;
     transition: 0.3s;
 }
 .section__projects--filters li:hover,
 .section__projects--filters li.active {
-    border-bottom: 2px solid var(--section-projects-emphasis_filter);
-    color: var(--section-projects-emphasis_filter);
+    border-bottom: 2px solid var(--projects-filter-emphasis);
+    color: var(--projects-filter-emphasis);
 }
 .section__projects--filters li:first-child {
     border-left: none;

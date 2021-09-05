@@ -1,0 +1,11 @@
+.section__team--area {
+    background-color: var(--team-bg_transparency);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.section__team {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}

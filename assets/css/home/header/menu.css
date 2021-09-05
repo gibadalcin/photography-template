@@ -12,7 +12,7 @@
 }
 .menu li a {
     height: 100px;
-    color: var(--head-color-light);
+    color: var(--menu-color);
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
@@ -24,11 +24,6 @@
 }
 .menu li a:hover,
 .menu .active a {
-    color: var(--head-color-emphasis);
-    border-bottom: 1px solid var(--head-color-emphasis);
-}
-
-@media screen {
-    
-
+    color: var(--menu-color-emphasis_hover);
+    border-bottom: 1px solid var(--menu-color-emphasis_hover);
 }

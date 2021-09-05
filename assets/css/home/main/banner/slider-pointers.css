@@ -1,9 +1,0 @@
-.banner .sliders__pointers {
-    width: 100vw;
-    height: 20px;
-    position: absolute;
-    margin-top: -50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

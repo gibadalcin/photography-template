@@ -1,7 +1,7 @@
 .section__projects--photo-info {
     position: absolute;
-    background-color: var(--section-photo-transparency_info);
-    color: var(--section-photo-color_info);
+    background-color: var(--photo-info-transparency);
+    color: var(--photo-info-color);
     width: inherit;
     height: inherit;
     display: none;

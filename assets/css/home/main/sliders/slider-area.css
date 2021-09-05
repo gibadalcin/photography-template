@@ -1,0 +1,33 @@
+/*manipula a area do slider no banner*/
+.banner .slider__area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-area);
+}
+
+
+/*manipula a area do slider no team*/
+.section__team .slider__area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--team-slider-color_name);
+    padding: 30px;
+}
+
+/*manipula a area do slider no testimonials*/
+.section__testimonials .slider__area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    max-width: 1140px;
+    height: 100%;
+}
