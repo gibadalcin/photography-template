@@ -1,0 +1,17 @@
+/*pointer do banner */
+.banner .pointer__banner {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-appearance:none;
+    border: 1px solid var(--pointer-color-emphasis);
+}
+.banner .pointer__banner:hover {
+    transform: scale(1.5);
+    border: 1px solid var(--pointer-color-emphasis);
+}
+
+
+

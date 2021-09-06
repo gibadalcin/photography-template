@@ -1,0 +1,14 @@
+/*pointer do banner */
+.premium .pointer__premium {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-appearance:none;
+    border: 1px solid var(--pointer-color-emphasis);
+}
+.premium .pointer__premium:hover {
+    transform: scale(1.5);
+    border: 1px solid var(--pointer-color-emphasis);
+}

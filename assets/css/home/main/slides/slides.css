@@ -1,20 +1,22 @@
-/*controla a exibição dos slides do banner posições -ovw/ -100/ -200vw */
-.banner .sliders {
+
+/*controla a exibição dos slides do banner posições -ovw/ -101/ -201vw */
+.banner .slides  {
     width:  1000vw;
     height: 100%;
-    margin-left: -0vw;
+    margin-left:-201vw;
 }
 
 /*controla os slides do team margin-left posições -0px / -320/ -620/ -920px*/
-.section__team .sliders {
+.section__team .slides {
     width:  1000vw;
     height: 100%;
-    margin-left:0px;
+    margin-left:-0px;
 }
 
 /*controla os slides do testimonials margin-left posições -0vw / -100/ -200*/
-.section__testimonials .sliders {
+.section__testimonials .slides {
     width: 1000vw;
     height: 100%;
     margin-left: -0vw;
 }
+

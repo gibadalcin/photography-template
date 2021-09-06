@@ -10,23 +10,23 @@
     --menu-color: rgb(230, 230, 230);
     --menu-color-emphasis_hover: #b28756;
 
-    /*sliders/slider.css*/
-    --team-slider_bg: #fff;
+    /*slides/slide.css*/
+    --team-slide_bg: #fff;
     --transparency_dark:rgba(0,0,0, 0.8);
 
-    /*sliders/slider-area.css*/
+    /*slides/slide-area.css*/
     --team-slider-color_name:#000;
 
-    /*slider-area.css*/
+    /*slide-area.css*/
     --color-area: #fff;
 
-    /*slider-content.css*/
+    /*slide-content.css*/
     --content-color_emphasis: #b28756;
     --content-transparency_button:rgba(0,0,0, 0.8);
     --content-emphasis_button: rgba(178,135,86, 0.8);
     --content-emphasis_hover: #b28756;
     --content-bg_hover: #000;
-    --slider_bg: #000;
+    --slide_bg: #000;
     --team-color_role: #6e7378;
     --team-bg_social: #fff;
     --team-bg_emphasis: #b28756;
@@ -85,7 +85,10 @@
     /*plans.css*/
     --button-bg_light:#f7f7f7;
    
-   
+   /*premium.css*/
+   --premium_bg: #fff;
+   --premium-item-color_content:#6e7378;
+   --premium-item-emphasis_content:#000;
    
 
     

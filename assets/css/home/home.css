@@ -9,3 +9,11 @@ body {
    overflow-x: hidden;
 }
 
+section.default.light.premium {
+    border-top: 1px solid var(--companies_bd);
+    background-color: var(--premium_bg);  
+}
+
+
+
+

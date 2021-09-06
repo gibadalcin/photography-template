@@ -1,5 +1,6 @@
+
 /*pointers do banner */
-.banner .sliders__pointers {
+.banner .slides__pointers {
     width: 100vw;
     height: 20px;
     position: absolute;
@@ -8,21 +9,47 @@
     justify-content: center;
     align-items: center;
 }
+.slides__pointers .pointer__banner:checked {
+    -webkit-appearance:none;
+    background-color: var(--pointer-color-emphasis);
+}
 
 /*pointers do team */
-.section__team--area .sliders__pointers {
+.section__team--area .slides__pointers {
     margin-top: 30px;
     height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.slides__pointers .pointer__team:checked {
+    -webkit-appearance:none;
+    background-color: var(--pointer-color-emphasis);
 }
 
 /*pointers do testimonials */
-section.testimonials .sliders__pointers {
+section.testimonials .slides__pointers {
     margin-top: 30px;
     height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.slides__pointers .pointer__testimonials:checked {
+    -webkit-appearance:none;
+    background-color: var(--pointer-color-emphasis);
+}
+
+/*pointers do premium */
+section.premium .slides__pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slides__pointers .pointer__premium:checked {
+    -webkit-appearance:none;
+    background-color: var(--pointer-color-emphasis);
+}
+

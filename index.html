@@ -16,13 +16,16 @@
 
     <link rel="stylesheet" href="/assets/css/home/main/banner.css">
 
-    <link rel="stylesheet" href="/assets/css/home/main/sliders/sliders.css">
-    <link rel="stylesheet" href="/assets/css/home/main/sliders/slider.css">
-    <link rel="stylesheet" href="/assets/css/home/main/sliders/slider-area.css">
-    <link rel="stylesheet" href="/assets/css/home/main/sliders/slider-content.css">
+    <link rel="stylesheet" href="/assets/css/home/main/slides/slides.css">
+    <link rel="stylesheet" href="/assets/css/home/main/slides/slide.css">
+    <link rel="stylesheet" href="/assets/css/home/main/slides/slide-area.css">
+    <link rel="stylesheet" href="/assets/css/home/main/slides/slide-content.css">
 
     <link rel="stylesheet" href="/assets/css/home/main/pointers/pointers.css">
-    <link rel="stylesheet" href="/assets/css/home/main/pointers/pointer.css">
+    <link rel="stylesheet" href="/assets/css/home/main/pointers/pointers-banner.css">
+    <link rel="stylesheet" href="/assets/css/home/main/pointers/pointers-team.css">
+    <link rel="stylesheet" href="/assets/css/home/main/pointers/pointers-testimonials.css">
+    <link rel="stylesheet" href="/assets/css/home/main/pointers/pointers-premium.css">
 
     <link rel="stylesheet" href="/assets/css/home/main/default/default.css">
     <link rel="stylesheet" href="/assets/css/home/main/default/default-light.css">
@@ -49,7 +52,11 @@
     <link rel="stylesheet" href="/assets/css/home/main/testimonials.css">
     <link rel="stylesheet" href="/assets/css/home/main/companies.css">
     <link rel="stylesheet" href="/assets/css/home/main/plans.css">
-   
+
+    <link rel="stylesheet" href="/assets/css/home/main/premium/premium.css">
+    <link rel="stylesheet" href="/assets/css/home/main/premium/premium-area-left.css">
+    <link rel="stylesheet" href="/assets/css/home/main/premium/premium-area-right.css">
+
 
     <link rel="shortcut icon" href="/assets/images/icon.ico" type="image/x-icon" />
 </head>
@@ -79,39 +86,33 @@
     </header>
     <main>
         <section class="banner">
-            <div class="sliders">
-                <div class="slider">
-                    <div class="slider__area">
+            <div class="slides">
+                <div class="slide">
+                    <div class="slide__area">
                         <h1>Take a Photograph <br><span>Recording is life</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
                         <a href="#" class="button" target="_blank" rel="noreferrer noopener">Get in touch!</a>
                     </div>
                 </div>
-                <div class="slider">
-                    <div class="slider__area">
+                <div class="slide">
+                    <div class="slide__area">
                         <h1>Design is about <br><span>Communication</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
                         <a href="#" class="button" target="_blank" rel="noreferrer noopener">Get in touch!</a>
                     </div>
                 </div>
-                <div class="slider">
-                    <div class="slider__area">
-                        <h1>Design is about <br><span>Communication</span></h1>
+                <div class="slide">
+                    <div class="slide__area">
+                        <h1>Design is about <br><span>Development</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
                         <a href="#" class="button" target="_blank" rel="noreferrer noopener">Get in touch!</a>
                     </div>
-                </div>
-                <div class="slider">
-                    ..2
-                </div>
-                <div class="slider">
-                    ..3
                 </div>
             </div>
-            <div class="sliders__pointers">
-                <div class="pointer active"></div>
-                <div class="pointer"></div>
-                <div class="pointer"></div>
+            <div class="slides__pointers">
+                <input type="radio" class="pointer__banner" name="banner" checked='checked' />
+                <input type="radio" class="pointer__banner" name="banner" />
+                <input type="radio" class="pointer__banner" name="banner" />
             </div>
         </section>
         <section class="default light">
@@ -308,9 +309,9 @@
                 <div class="section__desc">Our Co-Workers</div>
                 <div class="section__body">
                     <div class="section__team">
-                        <div class="sliders">
-                            <div class="slider">
-                                <div class="slider__area">
+                        <div class="slides">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/mulher1.png" alt="">
                                     <div class="section__team--name">Jane Doe</div>
                                     <div class="section__team--role">Master mind</div>
@@ -324,8 +325,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider">
-                                <div class="slider__area">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/homem1.png" alt="">
                                     <div class="section__team--name">Mike Chiller</div>
                                     <div class="section__team--role">Creative Head</div>
@@ -339,8 +340,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider">
-                                <div class="slider__area">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/mulher2.png" alt="">
                                     <div class="section__team--name">Anna Johns</div>
                                     <div class="section__team--role">Technical Lead</div>
@@ -354,8 +355,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider">
-                                <div class="slider__area">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/mulher1.png" alt="">
                                     <div class="section__team--name">Jane Doe</div>
                                     <div class="section__team--role">Master mind</div>
@@ -369,8 +370,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider">
-                                <div class="slider__area">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/homem1.png" alt="">
                                     <div class="section__team--name">Mike Chiller</div>
                                     <div class="section__team--role">Creative Head</div>
@@ -384,8 +385,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider">
-                                <div class="slider__area">
+                            <div class="slide">
+                                <div class="slide__area">
                                     <img class="section__team--avatar" src="/assets/media/mulher2.png" alt="">
                                     <div class="section__team--name">Anna Johns</div>
                                     <div class="section__team--role">Technical Lead</div>
@@ -401,10 +402,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sliders__pointers">
-                        <div class="pointer active"></div>
-                        <div class="pointer"></div>
-                        <div class="pointer"></div>
+                    <div class="slides__pointers">
+                        <input type="radio" class="pointer__team active" name="team" checked />
+                        <input type="radio" class="pointer__team" name="team" />
+                        <input type="radio" class="pointer__team" name="team" />
                     </div>
                 </div>
             </div>
@@ -414,9 +415,9 @@
             <div class="section__desc">Client Reviews</div>
             <div class="section__body">
                 <div class="section__testimonials">
-                    <div class="sliders">
-                        <div class="slider">
-                            <div class="slider__area">
+                    <div class="slides">
+                        <div class="slide">
+                            <div class="slide__area">
                                 <img class="section__testimonials--avatar" src="/assets/media/homem2.png" alt="">
                                 <div class="section__testimonials--name">John Doe</div>
                                 <div class="section__testimonials--role">Head of PR Departament</div>
@@ -430,8 +431,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider">
-                            <div class="slider__area">
+                        <div class="slide">
+                            <div class="slide__area">
                                 <img class="section__testimonials--avatar" src="/assets/media/mulher2.png" alt="">
                                 <div class="section__testimonials--name">Anna Johns</div>
                                 <div class="section__testimonials--role">Technical Lead</div>
@@ -445,8 +446,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider">
-                            <div class="slider__area">
+                        <div class="slide">
+                            <div class="slide__area">
                                 <img class="section__testimonials--avatar" src="/assets/media/mulher1.png" alt="">
                                 <div class="section__testimonials--name">Jane Doe</div>
                                 <div class="section__testimonials--role">Master mind</div>
@@ -462,35 +463,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="sliders__pointers">
-                    <div class="pointer active"></div>
-                    <div class="pointer"></div>
-                    <div class="pointer"></div>
+                <div class="slides__pointers">
+                    <div class="slides__pointers">
+                        <input type="radio" class="pointer__testimonials active" name="happy" checked />
+                        <input type="radio" class="pointer__testimonials" name="happy" />
+                        <input type="radio" class="pointer__testimonials" name="happy" />
+                    </div>
                 </div>
             </div>
         </section>
         <section class="default light companies">
-        <div class="section__body">
-            <div class="companies__area">
-                <div class="company">
-                    <img src="/assets/media/empresa1.png" alt="">
+            <div class="section__body">
+                <div class="companies__area">
+                    <div class="company">
+                        <img src="/assets/media/empresa1.png" alt="">
+                    </div>
+                    <div class="company">
+                        <img src="/assets/media/empresa2.png" alt="">
+                    </div>
+                    <div class="company">
+                        <img src="/assets/media/empresa3.png" alt="">
+                    </div>
+                    <div class="company">
+                        <img src="/assets/media/empresa4.png" alt="">
+                    </div>
+                    <div class="company">
+                        <img src="/assets/media/empresa5.png" alt="">
+                    </div>
+                    <div class="company">
+                        <img src="/assets/media/empresa6.png" alt="">
+                    </div>
                 </div>
-                <div class="company">
-                    <img src="/assets/media/empresa2.png" alt="">
-                </div>
-                <div class="company">
-                    <img src="/assets/media/empresa3.png" alt="">
-                </div>
-                <div class="company">
-                    <img src="/assets/media/empresa4.png" alt="">
-                </div>
-                <div class="company">
-                    <img src="/assets/media/empresa5.png" alt="">
-                </div>
-                <div class="company">
-                    <img src="/assets/media/empresa6.png" alt="">
-                </div>
-            </div>  
         </section>
         <section class="default light">
             <div class="section__title" id="price">Price</div>
@@ -544,8 +547,61 @@
                 </div>
             </div>
         </section>
+        <section class="default light premium">
+            <div class="section__title" id="premium">Premium</div>
+            <div class="section__desc">Even More Features Avaiable</div>
+            <div class="section__body">
+                <div class="section__premium">
+                    <div class="premium__area--left">
+                        <img src="/assets/media/livros.png" alt="">
+                    </div>
+                    <div class="premium__area--right">
+                        <div class="premium__item">
+                            <div class="premium__item--image">
+                                <img src="/assets/images/check.png" alt="">
+                            </div>
+                            <div class="premium__item--content">
+                                <h4>First Feature</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt. </p>
+                                <ul>
+                                    <li>Feature one</li>
+                                    <li>Feature Two</li>
+                                    <li>Feature Three</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="premium__item">
+                            <div class="premium__item--image">
+                                <img src="/assets/images/check.png" alt="">
+                            </div>
+                            <div class="premium__item--content">
+                                <h4>First Feature</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="premium__item">
+                            <div class="premium__item--image">
+                                <img src="/assets/images/check.png" alt="">
+                            </div>
+                            <div class="premium__item--content">
+                                <h4>First Feature</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slides__pointers">
+                    <input type="radio" class="pointer__premium" name="premium" checked='checked'/>
+                    <input type="radio" class="pointer__premium" name="premium"/>
+                    <input type="radio" class="pointer__premium" name="premium"/>
+                </div>
+                <a href="#" class="button premium__button">Get In Touch</a>
+            </div>
+        </section>
     </main>
     <footer>
+
     </footer>
 </body>
 

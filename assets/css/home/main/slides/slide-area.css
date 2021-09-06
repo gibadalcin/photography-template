@@ -1,5 +1,5 @@
-/*manipula a area do slider no banner*/
-.banner .slider__area {
+/*manipula a area do slide no banner*/
+.banner .slide__area {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -10,19 +10,19 @@
 }
 
 
-/*manipula a area do slider no team*/
-.section__team .slider__area {
+/*manipula a area do slide no team*/
+.section__team .slide__area {
     display: flex;
     flex-direction: column;
     height: 100%;
     align-items: center;
     justify-content: center;
-    color: var(--team-slider-color_name);
+    color: var(--team-slide-color_name);
     padding: 30px;
 }
 
-/*manipula a area do slider no testimonials*/
-.section__testimonials .slider__area {
+/*manipula a area do slide no testimonials*/
+.section__testimonials .slide__area {
     display: flex;
     flex-direction: column;
     justify-content: center;
