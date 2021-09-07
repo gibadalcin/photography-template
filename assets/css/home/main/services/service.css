@@ -1,21 +1,21 @@
-.section__service {
+.service {
     flex: 1;
     text-align: center;
     border-right:1px solid var(--service-color-desc);
     padding: 15px ;
 }
-.section__service:first-child {
+.service:first-child {
     border-left:1px solid var(--service-color-desc);
 }
-.section__service h4 {
+.service h4 {
     margin-top: 20px;
     text-transform: uppercase;
     font-size: 18px;
 }
-.section__service .default__h4 {
+.service .default__h4 {
     margin-top: 26px;
 }
-.section__service p {
+.service p {
     margin-top: 10px;
     font-size: 13px;
     color: var(--service-color-desc);

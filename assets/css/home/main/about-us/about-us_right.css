@@ -1,9 +1,9 @@
-.section__about-us_right {
+.about-us_right {
     width: 520px;
     text-align: right;
 
 }
-.section__about-us_right img {
+.about-us_right img {
     width: 480px;
     border-radius: 10px;
 }

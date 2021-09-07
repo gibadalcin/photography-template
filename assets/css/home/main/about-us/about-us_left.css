@@ -1,7 +1,7 @@
-.section__about-us_left {
+.about-us_left {
     flex: 1;
 }
-.section__about-us_left p {
+.about-us_left p {
     font-size: 14px;
     line-height: 20px;
 }

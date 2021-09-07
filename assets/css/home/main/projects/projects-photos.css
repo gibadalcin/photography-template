@@ -1,4 +1,4 @@
-.section__projects--photos {
+.projects--photos {
     width: 100vw;
     max-width: 1140px;
     margin-top: 20px;
@@ -6,10 +6,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.section__projects--photo {
+.projects--photo {
     width: 280px;
 }
-.section__projects--photo-area:hover
-.section__projects--photo-info {
+.projects--photo-area:hover
+.projects--photo-info {
     display: flex;
 }

@@ -1,0 +1,5 @@
+.price--item-money {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--price-item-color_money);
+}

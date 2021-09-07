@@ -1,0 +1,32 @@
+.price--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    background-color: var(--price-item_bg);
+    text-align: center;
+    padding: 30px;
+}
+.price--item .button__dark {
+    display: inline-block;
+    background-color: var(--price-item-bg_button);
+    color: var(--button-bg_light);
+    border: 1px solid var(--button-empashis);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.price--item .button {
+    font-size: 12px;
+    background-color: var(--price-item-emphasis_button);
+} 
+ .price--item .button__dark:hover {
+    background-color: var(--price-item-emphasis_button);
+    transform: scale(1.1);
+ }

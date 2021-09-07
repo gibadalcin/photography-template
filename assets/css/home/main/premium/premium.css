@@ -1,13 +1,18 @@
+section.default.light.premium {
+    border-top: 1px solid var(--companies_bd);
+    background-color: var(--premium_bg);  
+}
 .default .section__premium {  
     max-width: initial;
     height: 100%;
     border-bottom: 1px solid var(--companies_bd);
+    margin-bottom: 30px;
     display: flex;
 }
 .premium .premium__button {
     display: block;
     max-width: 150px;
-    margin: 20px auto;
+    margin: 30px auto 0 auto;
     text-align: center;
     font-size: 14px;
 }

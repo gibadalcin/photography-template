@@ -1,0 +1,7 @@
+.price--item-period {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--price-item-color_period);
+}

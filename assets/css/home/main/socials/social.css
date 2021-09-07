@@ -1,0 +1,28 @@
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.social:last-child {
+    margin-right: 0px;
+}
+.social img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.social:first-child img {
+    width: 26px;
+    height: 26px;
+}
+.social p {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--socials-color_p);
+}
+.social:first-child p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}

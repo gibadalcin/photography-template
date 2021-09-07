@@ -1,0 +1,22 @@
+.fields__top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+.top label {
+    display: flex;
+}
+
+.top#name.name,
+.top#email.email{
+    width: 40%;
+}
+.top:first-child .name{
+    margin-right: 40px;
+}

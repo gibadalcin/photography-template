@@ -1,16 +1,16 @@
-.section__projects--filters {
+.projects--filters {
     border: 1px solid var(--projects-filter-border);
     background-color: var(--projects-filter-bg);
     display: inline-block;
     border-radius: 30px;
     padding: 0px 20px;
 }
-.section__projects--filters ul,
-.section__projects--filters li {
+.projects--filters ul,
+.projects--filters li {
     list-style: none;
 }
 
-.section__projects--filters li {
+.projects--filters li {
     display: inline-block;
     padding: 10px;
     text-transform: uppercase;
@@ -21,11 +21,11 @@
     cursor:pointer;
     transition: 0.3s;
 }
-.section__projects--filters li:hover,
-.section__projects--filters li.active {
+.projects--filters li:hover,
+.projects--filters li.active {
     border-bottom: 2px solid var(--projects-filter-emphasis);
     color: var(--projects-filter-emphasis);
 }
-.section__projects--filters li:first-child {
+.projects--filters li:first-child {
     border-left: none;
 }

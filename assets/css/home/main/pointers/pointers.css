@@ -16,7 +16,7 @@
 
 /*pointers do team */
 .section__team--area .slides__pointers {
-    margin-top: 30px;
+    margin-top: 50px;
     height: 20px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ section.testimonials .slides__pointers {
 
 /*pointers do premium */
 section.premium .slides__pointers {
-    margin-top: 30px;
+    margin-top: 40px;
     height: 20px;
     display: flex;
     justify-content: center;

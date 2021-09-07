@@ -1,0 +1,42 @@
+.section__form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    text-align: center;
+    padding: 10px 30px;
+}
+.section__form .button {
+    cursor: pointer;
+}
+.fields__top .name,
+.fields__top .email,
+.fields__bottom .subject,
+.fields__bottom .message {
+    font-size: 15px;
+    font-weight: 400;
+    border-style: hidden;
+    border-bottom-style:solid;
+    color: var(--form-color_input);
+    background-color: var(--form-bg_input);
+    outline: none;
+    padding: 0 0 5px 0;
+}
+.fields__top .name:focus,
+.fields__top .email:focus,
+.fields__bottom .subject:focus,
+.fields__bottom .message:focus {
+    border-bottom-color:var(--form-emphasis_field);
+    color: var(--form-color_input);
+}
+.fields__top .name:hover,
+.fields__top .email:hover,
+.fields__bottom .subject:hover,
+.fields__bottom .message:hover {
+    border-bottom-color:var(--form-emphasis_field);
+    cursor: pointer;
+}
+.section__form .button {
+    width: 150px;
+    font-size: 13px;
+}

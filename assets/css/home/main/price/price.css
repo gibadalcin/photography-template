@@ -1,0 +1,14 @@
+.section__price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.price--item-issues,
+.price--item-bugs,
+.price--item-notifications,
+.price--item-time,
+.price--item-custom {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--price-item-color_others);
+}

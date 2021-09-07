@@ -1,4 +1,6 @@
 :root {
+
+    --outline_color-emphasis_field:#b28756;
     /*header.css*/
     --head-color: #fff;
     --head-bg: #000;
@@ -90,14 +92,19 @@
    --premium-item-color_content:#6e7378;
    --premium-item-emphasis_content:#000;
    
-
+   /*some-fact.css*/
+   --some-fact-emphasis:#b28756;
+   --some-fact-color_p: #6e7378;
+    
+    /*socials.css*/
+   --socials-color_border:#ccc;
+   --socials-color_p:#ccc;
     
 
-    
-
-    
-
-    
+   --form-bg_input: #f7f7f7;
+   --form-color_input: #000;
+   --form-emphasis_field:#b28756;
+   --form-color_label:#c3c3c3;
     
     
 

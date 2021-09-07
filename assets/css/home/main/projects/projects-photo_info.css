@@ -1,4 +1,4 @@
-.section__projects--photo-info {
+.projects--photo-info {
     position: absolute;
     background-color: var(--photo-info-transparency);
     color: var(--photo-info-color);
@@ -11,7 +11,7 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.section__projects--photo-info h5 {
+.projects--photo-info h5 {
     font-size: 18px;
     font-weight: 600;
 }

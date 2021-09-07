@@ -1,7 +1,8 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;         
     box-sizing: border-box;
+    outline-color: var(--outline_color-emphasis_field);
 }
 body {
    font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -9,10 +10,9 @@ body {
    overflow-x: hidden;
 }
 
-section.default.light.premium {
-    border-top: 1px solid var(--companies_bd);
-    background-color: var(--premium_bg);  
-}
+
+
+
 
 
 

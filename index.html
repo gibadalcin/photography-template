@@ -51,16 +51,34 @@
 
     <link rel="stylesheet" href="/assets/css/home/main/testimonials.css">
     <link rel="stylesheet" href="/assets/css/home/main/companies.css">
-    <link rel="stylesheet" href="/assets/css/home/main/plans.css">
+
+    <link rel="stylesheet" href="/assets/css/home/main/price/price.css">
+    <link rel="stylesheet" href="/assets/css/home/main/price/price-item.css">
+    <link rel="stylesheet" href="/assets/css/home/main/price/price-item-period.css">
+    <link rel="stylesheet" href="/assets/css/home/main/price/price-item-name.css">
+    <link rel="stylesheet" href="/assets/css/home/main/price/price-item-money.css">
 
     <link rel="stylesheet" href="/assets/css/home/main/premium/premium.css">
     <link rel="stylesheet" href="/assets/css/home/main/premium/premium-area-left.css">
     <link rel="stylesheet" href="/assets/css/home/main/premium/premium-area-right.css">
 
+    <link rel="stylesheet" href="/assets/css/home/main/some-facts/some-facts.css">
+    <link rel="stylesheet" href="/assets/css/home/main/some-facts/some-fact.css">
+
+    <link rel="stylesheet" href="/assets/css/home/main/socials/social.css">
+    <link rel="stylesheet" href="/assets/css/home/main/socials/socials.css">
+    <link rel="stylesheet" href="/assets/css/home/main/socials/socials-area.css">
+
+    <link rel="stylesheet" href="/assets/css/home/main/contact/form.css">
+    <link rel="stylesheet" href="/assets/css/home/main/contact/section-form.css">
+    <link rel="stylesheet" href="/assets/css/home/main/contact/labels.css">
+    <link rel="stylesheet" href="/assets/css/home/main/contact/fields-top.css">
+    <link rel="stylesheet" href="/assets/css/home/main/contact/fields-bottom.css">
+
+
 
     <link rel="shortcut icon" href="/assets/images/icon.ico" type="image/x-icon" />
 </head>
-
 <body>
     <header>
         <div class="header">
@@ -77,8 +95,8 @@
                         <li><a href="#our_team">Our Team</a></li>
                         <li><a href="#happy_clients">Happy Clients</a></li>
                         <li><a href="#price">Price</a></li>
-                        <li><a href="#">Some Facts</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#some_facts">Some Facts</a></li>
+                        <li><a href="#form">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -115,12 +133,12 @@
                 <input type="radio" class="pointer__banner" name="banner" />
             </div>
         </section>
-        <section class="default light">
+        <section class="default light about__us">
             <div class="section__title" id="about_us">About Us</div>
             <div class="section__desc">Who we are?</div>
             <div class="section__body">
                 <div class="section__about-us">
-                    <div class="section__about-us_left">
+                    <div class="about-us_left">
                         <p>Photography, when it first appeared in 19th century, used a few different technologies that
                             existed for thousands of years. Chinese philosopher Mo Ti and Greek mathematicians Aristotle
                             and
@@ -140,33 +158,33 @@
                         <br>
                         <a href="" class="button">Learn More</a>
                     </div>
-                    <div class="section__about-us_right">
+                    <div class="about-us_right">
                         <img src="/assets/images/section1.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="default dark">
+        <section class="default dark services">
             <div class="section__title" id="services">Services</div>
             <div class="section__desc">Services That we Provide</div>
             <div class="section__body">
                 <div class="section__services">
-                    <div class="section__service">
+                    <div class="service">
                         <img src="/assets/images/medalha.png" alt="">
                         <h4 class="default__h4">High Quality Design</h4>
                         <p>High Quality Design with a Mission</p>
                     </div>
-                    <div class="section__service">
+                    <div class="service">
                         <img src="/assets/images/estrela.png" alt="">
                         <h4 class="modern__h4">Modern Design</h4>
                         <p>Designed by Experienced Graphic Design Team</p>
                     </div>
-                    <div class="section__service">
+                    <div class="service">
                         <img src="/assets/images/relogio.png" alt="">
                         <h4 class="default__h4">Regular Updates</h4>
                         <p>Secure, Fast and Fully Responsive for Desktop and Mobile</p>
                     </div>
-                    <div class="section__service">
+                    <div class="service">
                         <img src="/assets/images/balao.png" alt="">
                         <h4 class="default__h4">Fast And Free Support</h4>
                         <p>Optimized by our SEO Experts</p>
@@ -174,12 +192,12 @@
                 </div>
             </div>
         </section>
-        <section class="default light">
+        <section class="default light projects">
             <div class="section__title" id="projects">Our Projects</div>
             <div class="section__desc">What we Create</div>
             <div class="section__body">
                 <div class="section__projects">
-                    <div class="section__projects--filters">
+                    <div class="projects--filters">
                         <ul>
                             <li>All</li>
                             <li class="active">Photos</li>
@@ -189,109 +207,109 @@
                             <li>Misc</li>
                         </ul>
                     </div>
-                    <div class="section__projects--photos">
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                    <div class="projects--photos">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Parque Nacional Banff</p>
                                 </div>
                                 <img src="/assets/media/foto1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Rail yard</p>
                                 </div>
                                 <img src="/assets/media/foto2.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Caribbean Sea</p>
                                 </div>
                                 <img src="/assets/media/foto3.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Parque Nacional Banff</p>
                                 </div>
                                 <img src="/assets/media/foto4.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Stranger Things</p>
                                 </div>
                                 <img src="/assets/media/foto5.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>New York City</p>
                                 </div>
                                 <img src="/assets/media/foto6.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Parque Nacional Banff</p>
                                 </div>
                                 <img src="/assets/media/foto7.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>BLUE WATER FISH</p>
                                 </div>
                                 <img src="/assets/media/foto8.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Singapore Zoo</p>
                                 </div>
                                 <img src="/assets/media/foto9.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Parque Nacional Banff</p>
                                 </div>
                                 <img src="/assets/media/foto10.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Yellowstone National Park</p>
                                 </div>
                                 <img src="/assets/media/foto11.jpg" alt="">
                             </div>
                         </div>
-                        <div class="section__projects--photo">
-                            <div class="section__projects--photo-area">
-                                <div class="section__projects--photo-info">
+                        <div class="projects--photo">
+                            <div class="projects--photo-area">
+                                <div class="projects--photo-info">
                                     <h5>About</h5>
                                     <p>Caribbean Sea</p>
                                 </div>
@@ -303,7 +321,7 @@
                 </div>
             </div>
         </section>
-        <section class="default dark bg__team">
+        <section class="default dark team">
             <div class="section__team--area">
                 <div id="our_team" class="section__title">Our Team</div>
                 <div class="section__desc">Our Co-Workers</div>
@@ -312,10 +330,10 @@
                         <div class="slides">
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/mulher1.png" alt="">
-                                    <div class="section__team--name">Jane Doe</div>
-                                    <div class="section__team--role">Master mind</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/mulher1.png" alt="">
+                                    <div class="team--name">Jane Doe</div>
+                                    <div class="team--role">Master mind</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -327,10 +345,10 @@
                             </div>
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/homem1.png" alt="">
-                                    <div class="section__team--name">Mike Chiller</div>
-                                    <div class="section__team--role">Creative Head</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/homem1.png" alt="">
+                                    <div class="team--name">Mike Chiller</div>
+                                    <div class="team--role">Creative Head</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -342,10 +360,10 @@
                             </div>
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/mulher2.png" alt="">
-                                    <div class="section__team--name">Anna Johns</div>
-                                    <div class="section__team--role">Technical Lead</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/mulher2.png" alt="">
+                                    <div class="team--name">Anna Johns</div>
+                                    <div class="team--role">Technical Lead</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -357,10 +375,10 @@
                             </div>
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/mulher1.png" alt="">
-                                    <div class="section__team--name">Jane Doe</div>
-                                    <div class="section__team--role">Master mind</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/mulher1.png" alt="">
+                                    <div class="team--name">Jane Doe</div>
+                                    <div class="team--role">Master mind</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -372,10 +390,10 @@
                             </div>
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/homem1.png" alt="">
-                                    <div class="section__team--name">Mike Chiller</div>
-                                    <div class="section__team--role">Creative Head</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/homem1.png" alt="">
+                                    <div class="team--name">Mike Chiller</div>
+                                    <div class="team--role">Creative Head</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -387,10 +405,10 @@
                             </div>
                             <div class="slide">
                                 <div class="slide__area">
-                                    <img class="section__team--avatar" src="/assets/media/mulher2.png" alt="">
-                                    <div class="section__team--name">Anna Johns</div>
-                                    <div class="section__team--role">Technical Lead</div>
-                                    <div class="section__team--social">
+                                    <img class="team--avatar" src="/assets/media/mulher2.png" alt="">
+                                    <div class="team--name">Anna Johns</div>
+                                    <div class="team--role">Technical Lead</div>
+                                    <div class="team--social">
                                         <a href=""><img src="/assets/images/facebook.png" alt=""></a>
                                         <a href=""><img src="/assets/images/linkedin.png" alt=""></a>
                                         <a href=""><img src="/assets/images/instagram.png" alt=""></a>
@@ -418,11 +436,11 @@
                     <div class="slides">
                         <div class="slide">
                             <div class="slide__area">
-                                <img class="section__testimonials--avatar" src="/assets/media/homem2.png" alt="">
-                                <div class="section__testimonials--name">John Doe</div>
-                                <div class="section__testimonials--role">Head of PR Departament</div>
-                                <img class="section__testimonials--quote" src="/assets/images/quote.png" alt="">
-                                <div class="section__testimonials--quote_text">
+                                <img class="testimonials--avatar" src="/assets/media/homem2.png" alt="">
+                                <div class="testimonials--name">John Doe</div>
+                                <div class="testimonials--role">Head of PR Departament</div>
+                                <img class="testimonials--quote" src="/assets/images/quote.png" alt="">
+                                <div class="testimonials--quote_text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -433,11 +451,11 @@
                         </div>
                         <div class="slide">
                             <div class="slide__area">
-                                <img class="section__testimonials--avatar" src="/assets/media/mulher2.png" alt="">
-                                <div class="section__testimonials--name">Anna Johns</div>
-                                <div class="section__testimonials--role">Technical Lead</div>
-                                <img class="section__testimonials--quote" src="/assets/images/quote.png" alt="">
-                                <div class="section__testimonials--quote_text">
+                                <img class="testimonials--avatar" src="/assets/media/mulher2.png" alt="">
+                                <div class="testimonials--name">Anna Johns</div>
+                                <div class="testimonials--role">Technical Lead</div>
+                                <img class="testimonials--quote" src="/assets/images/quote.png" alt="">
+                                <div class="testimonials--quote_text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -448,11 +466,11 @@
                         </div>
                         <div class="slide">
                             <div class="slide__area">
-                                <img class="section__testimonials--avatar" src="/assets/media/mulher1.png" alt="">
-                                <div class="section__testimonials--name">Jane Doe</div>
-                                <div class="section__testimonials--role">Master mind</div>
-                                <img class="section__testimonials--quote" src="/assets/images/quote.png" alt="">
-                                <div class="section__testimonials--quote_text">
+                                <img class="testimonials--avatar" src="/assets/media/mulher1.png" alt="">
+                                <div class="testimonials--name">Jane Doe</div>
+                                <div class="testimonials--role">Master mind</div>
+                                <img class="testimonials--quote" src="/assets/images/quote.png" alt="">
+                                <div class="testimonials--quote_text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -495,53 +513,53 @@
                     </div>
                 </div>
         </section>
-        <section class="default light">
+        <section class="default light price">
             <div class="section__title" id="price">Price</div>
             <div class="section__desc">Pricing Table</div>
             <div class="section__body">
                 <div class="section__price">
-                    <div class="section__price--item">
-                        <div class="section__price--item-name">Express</div>
-                        <div class="section__price--item-money">$ 9.99</div>
-                        <div class="section__price--item-period">/ month</div>
-                        <div class="section__price--item-issues">Tracking issues <br>--</div>
-                        <div class="section__price--item-bugs">Add bugs through email<br>--</div>
-                        <div class="section__price--item-notifications">Notifications <br>--</div>
-                        <div class="section__price--item-time">Time Tracking <br>--</div>
-                        <div class="section__price--item-custom">Custom Views</div>
+                    <div class="price--item">
+                        <div class="price--item-name">Express</div>
+                        <div class="price--item-money">$ 9.99</div>
+                        <div class="price--item-period">/ month</div>
+                        <div class="price--item-issues">Tracking issues <br>--</div>
+                        <div class="price--item-bugs">Add bugs through email<br>--</div>
+                        <div class="price--item-notifications">Notifications <br>--</div>
+                        <div class="price--item-time">Time Tracking <br>--</div>
+                        <div class="price--item-custom">Custom Views</div>
                         <a href="#" class="button__dark">Choose</a>
                     </div>
-                    <div class="section__price--item">
-                        <div class="section__price--item-name">Standart</div>
-                        <div class="section__price--item-money">$ 14.99</div>
-                        <div class="section__price--item-period">/ month</div>
-                        <div class="section__price--item-issues">Tracking issues <br>--</div>
-                        <div class="section__price--item-bugs">Add bugs through email<br>--</div>
-                        <div class="section__price--item-notifications">Notifications <br>--</div>
-                        <div class="section__price--item-time">Time Tracking <br>--</div>
-                        <div class="section__price--item-custom">Custom Views</div>
+                    <div class="price--item">
+                        <div class="price--item-name">Standart</div>
+                        <div class="price--item-money">$ 14.99</div>
+                        <div class="price--item-period">/ month</div>
+                        <div class="price--item-issues">Tracking issues <br>--</div>
+                        <div class="price--item-bugs">Add bugs through email<br>--</div>
+                        <div class="price--item-notifications">Notifications <br>--</div>
+                        <div class="price--item-time">Time Tracking <br>--</div>
+                        <div class="price--item-custom">Custom Views</div>
                         <a href="#" class="button__dark">Choose</a>
                     </div>
-                    <div class="section__price--item">
-                        <div class="section__price--item-name">Luxe</div>
-                        <div class="section__price--item-money">$ 24.99</div>
-                        <div class="section__price--item-period">/ month</div>
-                        <div class="section__price--item-issues">Tracking issues <br>--</div>
-                        <div class="section__price--item-bugs">Add bugs through email<br>--</div>
-                        <div class="section__price--item-notifications">Notifications <br>--</div>
-                        <div class="section__price--item-time">Time Tracking <br>--</div>
-                        <div class="section__price--item-custom">Custom Views</div>
+                    <div class="price--item">
+                        <div class="price--item-name">Luxe</div>
+                        <div class="price--item-money">$ 24.99</div>
+                        <div class="price--item-period">/ month</div>
+                        <div class="price--item-issues">Tracking issues <br>--</div>
+                        <div class="price--item-bugs">Add bugs through email<br>--</div>
+                        <div class="price--item-notifications">Notifications <br>--</div>
+                        <div class="price--item-time">Time Tracking <br>--</div>
+                        <div class="price--item-custom">Custom Views</div>
                         <a href="#" class="button__dark">Choose</a>
                     </div>
-                    <div class="section__price--item">
-                        <div class="section__price--item-name">Premium</div>
-                        <div class="section__price--item-money">$ 38.99</div>
-                        <div class="section__price--item-period">/ month</div>
-                        <div class="section__price--item-issues">Tracking issues <br>--</div>
-                        <div class="section__price--item-bugs">Add bugs through email<br>--</div>
-                        <div class="section__price--item-notifications">Notifications <br>--</div>
-                        <div class="section__price--item-time">Time Tracking <br>--</div>
-                        <div class="section__price--item-custom">Custom Views</div>
+                    <div class="price--item">
+                        <div class="price--item-name">Premium</div>
+                        <div class="price--item-money">$ 38.99</div>
+                        <div class="price--item-period">/ month</div>
+                        <div class="price--item-issues">Tracking issues <br>--</div>
+                        <div class="price--item-bugs">Add bugs through email<br>--</div>
+                        <div class="price--item-notifications">Notifications <br>--</div>
+                        <div class="price--item-time">Time Tracking <br>--</div>
+                        <div class="price--item-custom">Custom Views</div>
                         <a href="#" class="button button__dark">Choose</a>
                     </div>
                 </div>
@@ -552,10 +570,10 @@
             <div class="section__desc">Even More Features Avaiable</div>
             <div class="section__body">
                 <div class="section__premium">
-                    <div class="premium__area--left">
+                    <div class="area--left">
                         <img src="/assets/media/livros.png" alt="">
                     </div>
-                    <div class="premium__area--right">
+                    <div class="area--right">
                         <div class="premium__item">
                             <div class="premium__item--image">
                                 <img src="/assets/images/check.png" alt="">
@@ -592,11 +610,105 @@
                     </div>
                 </div>
                 <div class="slides__pointers">
-                    <input type="radio" class="pointer__premium" name="premium" checked='checked'/>
-                    <input type="radio" class="pointer__premium" name="premium"/>
-                    <input type="radio" class="pointer__premium" name="premium"/>
+                    <input type="radio" class="pointer__premium" name="premium" checked='checked' />
+                    <input type="radio" class="pointer__premium" name="premium" />
+                    <input type="radio" class="pointer__premium" name="premium" />
                 </div>
                 <a href="#" class="button premium__button">Get In Touch</a>
+            </div>
+        </section>
+        <section class="default dark some__facts">
+            <div class="section__title" id="some_facts">Some Facts</div>
+            <div class="section__desc">About Our Work</div>
+            <div class="section__body">
+                <div class="section__some--facts">
+                    <div class="some--fact">
+                        <h3 class="default__h3">1000</h3>
+                        <p class="hiffen"></p>
+                        <h4 class="default__h4">Design Projects Released</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="some--fact">
+                        <h3 class="default__h3">900</h3>
+                        <p class="hiffen"></p>
+                        <h4 class="modern__h4">Photos</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="some--fact">
+                        <h3 class="default__h3">500</h3>
+                        <p class="hiffen"></p>
+                        <h4 class="default__h4">Marketing Ideas</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="some--fact">
+                        <h3 class="default__h3">100</h3>
+                        <p class="hiffen"></p>
+                        <h4 class="default__h4">Exhibitions</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="light socials">
+            <div class="section__body">
+                <div class="socials__area">
+                    <div class="social">
+                       <a href="#"><img src="/assets/images/share.png" alt=""></a> 
+                        <p>Tell About Us.</p>
+                    </div>
+                    <div class="social">
+                        <a href=""><img src="/assets/images/instagram2.png" alt=""></a>
+                        <p>165</p>
+                    </div>  
+                    <div class="social">
+                        <a href="#"><img src="/assets/images/twitter2.png" alt=""></a>
+                        <p>152</p>
+                    </div>
+                    <div class="social">
+                        <a href=""><img src="/assets/images/skype2.png" alt=""></a>
+                        <p>165</p>
+                    </div>
+                    <div class="social">
+                        <a href=""><img src="/assets/images/behance2.png" alt=""></a>
+                        <p>22</p>
+                    </div>   
+                    <div class="social">
+                        <a href=""><img src="/assets/images/facebook2.png" alt=""></a>
+                        <p>31</p>
+                    </div>               
+                    <div class="social">
+                        <a href=""><img src="/assets/images/youtube2.png" alt=""></a>
+                        <p>165</p>
+                    </div>
+                </div>
+        </section>
+        <section class="default light form">
+            <div class="section__title" id="form">Contact Us</div>
+            <div class="section__desc">Our Agency Located In Caxias Do Sul, Brazil</div>
+            <div class="section__body">
+                <form class="section__form">
+                    <div class="fields__top">
+                        <div class="top">
+                            <label for="name">NAME</label>
+                            <input type="text" class="name" id="name" required >
+                        </div>
+                        <div class="top">
+                            <label for="email">EMAIL</label>
+                            <input type="email" class="email" id="email" required >
+                        </div>
+                    </div>
+                    <div class="fields__bottom">
+                        <div class="bottom">
+                            <label for="subject">SUBJECT</label>
+                            <input type="text" class="subject" id="subject"required >
+                        </div>
+                        <div class="bottom">
+                            <label for="message">MESSAGE</label>
+                            <input type="text" rows="5" id="message" class="message" >
+                        </div>
+                    </div>
+                    <a href="#" class="button" type="submit">Send Message</a>
+                </form>
             </div>
         </section>
     </main>
