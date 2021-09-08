@@ -1,0 +1,12 @@
+.map__info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    min-height: 220px;
+    background-color: var(--map-bg_info);
+    border: 1px solid var(--map-bd_info);
+    border-radius: 5px;
+    margin-left: 100px;
+}

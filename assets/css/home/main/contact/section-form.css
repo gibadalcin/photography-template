@@ -1,3 +1,6 @@
+.default.light.form {
+    padding-bottom: 40px;
+}
 .section__form {
     display: flex;
     flex-direction: column;
@@ -40,3 +43,5 @@
     width: 150px;
     font-size: 13px;
 }
+
+

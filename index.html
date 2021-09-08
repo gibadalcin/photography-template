@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <title>Photography</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/home/utils/colors.css">
@@ -75,10 +75,28 @@
     <link rel="stylesheet" href="/assets/css/home/main/contact/fields-top.css">
     <link rel="stylesheet" href="/assets/css/home/main/contact/fields-bottom.css">
 
+    <link rel="stylesheet" href="/assets/css/home/main/map/iframe.css">
+    <link rel="stylesheet" href="/assets/css/home/main/map/map-info.css">
+    <link rel="stylesheet" href="/assets/css/home/main/map/map-area.css">
+    <link rel="stylesheet" href="/assets/css/home/main/map/info-item.css">
+    <link rel="stylesheet" href="/assets/css/home/main/map/info-item--img.css">
+
+    <link rel="stylesheet" href="/assets/css/home/footer/footer.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/social-area.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/description.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/subscribe/subscribe.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/subscribe/subscribe-bg.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/subscribe/subscribe-label.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/subscribe/subscribe-input.css">
+    <link rel="stylesheet" href="/assets/css/home/footer/subscribe/subscribe-button.css">
+    
+
 
 
     <link rel="shortcut icon" href="/assets/images/icon.ico" type="image/x-icon" />
+
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -86,6 +104,7 @@
                 <div class="logo__img"></div>
             </div>
             <div class="menu">
+                <img  class="menu__opener" src="/assets/images/menu.png" alt="">
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
@@ -649,17 +668,17 @@
                 </div>
             </div>
         </section>
-        <section class="light socials">
+        <section class="default light socials">
             <div class="section__body">
                 <div class="socials__area">
                     <div class="social">
-                       <a href="#"><img src="/assets/images/share.png" alt=""></a> 
+                        <a href="#"><img src="/assets/images/share.png" alt=""></a>
                         <p>Tell About Us.</p>
                     </div>
                     <div class="social">
                         <a href=""><img src="/assets/images/instagram2.png" alt=""></a>
                         <p>165</p>
-                    </div>  
+                    </div>
                     <div class="social">
                         <a href="#"><img src="/assets/images/twitter2.png" alt=""></a>
                         <p>152</p>
@@ -671,11 +690,11 @@
                     <div class="social">
                         <a href=""><img src="/assets/images/behance2.png" alt=""></a>
                         <p>22</p>
-                    </div>   
+                    </div>
                     <div class="social">
                         <a href=""><img src="/assets/images/facebook2.png" alt=""></a>
                         <p>31</p>
-                    </div>               
+                    </div>
                     <div class="social">
                         <a href=""><img src="/assets/images/youtube2.png" alt=""></a>
                         <p>165</p>
@@ -690,30 +709,96 @@
                     <div class="fields__top">
                         <div class="top">
                             <label for="name">NAME</label>
-                            <input type="text" class="name" id="name" required >
+                            <input type="text" class="name" id="name" required>
                         </div>
                         <div class="top">
                             <label for="email">EMAIL</label>
-                            <input type="email" class="email" id="email" required >
+                            <input type="email" class="email" id="email" required>
                         </div>
                     </div>
                     <div class="fields__bottom">
                         <div class="bottom">
                             <label for="subject">SUBJECT</label>
-                            <input type="text" class="subject" id="subject"required >
+                            <input type="text" class="subject" id="subject" required>
                         </div>
                         <div class="bottom">
                             <label for="message">MESSAGE</label>
-                            <input type="text" rows="5" id="message" class="message" >
+                            <input type="text" rows="5" id="message" class="message">
                         </div>
                     </div>
                     <a href="#" class="button" type="submit">Send Message</a>
                 </form>
             </div>
         </section>
+        <section class="map__area">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d446338.20743609685!2d-51.32632348616048!3d-29.075635359953313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951e9560e4fda1b1%3A0x393a9bca1f444cc6!2sCaxias%20do%20Sul%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1631050533045!5m2!1spt-BR!2sbr"
+                loading="lazy">
+            </iframe>
+            <div class="map__info">
+                <div class="info__item">
+                    <div class="info__item--img">
+                        <img src="/assets/images/carta.png" alt="">
+                    </div>
+                    25th of August Street São Ciro 95057630 Brazil
+                </div>
+                <div class="info__item">
+                    <div class="info__item--img">
+                        <img src="/assets/images/localizacao.png" alt="">
+                    </div>
+                    Caxia do Sul Rio Grande do Sul Brazil
+                </div>
+                <div class="info__item">
+                    <div class="info__item--img">
+                        <img src="/assets/images/telefone.png" alt="">
+                    </div>
+                    +55 54 1234 5678
+                </div>
+                <div class="info__item">
+                    <div class="info__item--img">
+                        <img src="/assets/images/arroba.png" alt="">
+                    </div>
+                    codartche.digital@outlook.com
+                </div>
+                <div class="info__item">
+                    <div class="info__item--img">
+                        <img src="/assets/images/web.png" alt="">
+                    </div>
+                    www.codartchedigital.com.br
+                </div>
+
+            </div>
+
+        </section>
     </main>
     <footer>
-
+        <section class="footer">
+            <div class="social__footer--area">
+                <div class="social__footer">
+                   <a href="#"><img src="/assets/images/instagram2.png" alt=""></a>
+                   <a href="#"><img src="/assets/images/twitter2.png" alt=""></a>
+                    <a href="#"><img src="/assets/images/facebook2.png" alt=""></a>
+                    <a href="#"><img src="/assets/images/youtube2.png" alt=""></a>
+                    <a href="#"><img src="/assets/images/behance2.png" alt=""></a>
+                    <a href="#"><img src="/assets/images/skype2.png" alt=""></a>
+                </div>
+                <p><span>&copy;</span>Codartche Digital - 2021</p>
+            </div>
+            <div class="desc__footer">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."
+            </div>
+            <div class="subscribe__footer">
+                <div class="subscribe__bg">
+                    <label for="email_footer"> Email To Subscribe</label>
+                    <input type="email" id="email_footer">
+                    <a href="#" class="button footer">Subscribe</a>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 

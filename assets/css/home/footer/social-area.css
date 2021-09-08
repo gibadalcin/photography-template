@@ -1,0 +1,15 @@
+.social__footer--area {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px 0px;
+  }
+  .social__footer--area p span {
+      position: relative;
+      font-size: 25px;
+      bottom: -4px;
+      margin-right: 5px;
+  }
+ 

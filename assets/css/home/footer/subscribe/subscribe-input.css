@@ -1,0 +1,15 @@
+.subscribe__bg input {
+    text-align: center;
+    border-style: hidden;
+    border-bottom-style:solid;
+    width: 90%;
+    color: var(--footer-color_email-input);
+    background-color: var(--footer-bg_subscribe-input);
+    margin: 10px 0;
+    padding: 5px 5px;
+    font-size: 16px;
+    outline: none;
+}
+.subscribe__bg input:focus {
+    border: 1px solid var(--footer-emphasis_focus-input);
+}

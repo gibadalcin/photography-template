@@ -1,0 +1,9 @@
+.desc__footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+    flex: 2;
+    height: 100%;
+ }
+ 

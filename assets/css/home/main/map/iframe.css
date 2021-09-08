@@ -1,0 +1,7 @@
+.map__area iframe.map {
+    max-width: inherit;
+    width: 100vw;
+    min-height: 300px;
+    border: 1px solid var(--map-bd_area);
+    margin: 30px 0 30px 0;
+}

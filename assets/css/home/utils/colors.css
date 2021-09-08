@@ -11,6 +11,7 @@
     /*menu.css*/
     --menu-color: rgb(230, 230, 230);
     --menu-color-emphasis_hover: #b28756;
+    --menu-bg_mobile: rgba(0,0,0, 0.8);
 
     /*slides/slide.css*/
     --team-slide_bg: #fff;
@@ -105,13 +106,18 @@
    --form-color_input: #000;
    --form-emphasis_field:#b28756;
    --form-color_label:#c3c3c3;
-    
-    
 
-    
 
+   --map-bd_area:#b28756;
+   --map-bg_item-img: #b28756;
+   --map-color_area: #fff;
+   --map-bg_info: rgba(0,0,0, 0.9);
+   --map-bd_info:#b28756;
     
-
-    
+   --footer-bd_subscribe: #b28756;
+   --footer-color_label: #ccc;
+   --footer-color_email-input: #ccc;
+   --footer-bg_subscribe-input: #000;
+   --footer-emphasis_focus-input: #b28756;
 
 }

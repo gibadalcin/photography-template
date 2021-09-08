@@ -1,0 +1,17 @@
+.map__area {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (min-width:450px) and (max-width:1150px) {
+    .map__area {
+        margin-bottom: 150px
+    }
+    .map__info {
+        margin-bottom: -120px;
+        margin-left: 150px;
+    }
+}

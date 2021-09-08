@@ -1,0 +1,5 @@
+.info__item {
+    display: flex;
+    align-items: center;
+    color: var(--map-color_area);
+}

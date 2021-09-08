@@ -12,3 +12,21 @@
     font-weight: 500;
     color: var(--price-item-color_others);
 }
+
+@media (min-width:450px) and (max-width:1150px) {
+    .section__price {
+        flex-wrap: wrap;
+    }
+    section .price--item {
+        min-width: 45%;
+    }
+    section .price--item:first-child,
+    section .price--item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    section .section__price {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

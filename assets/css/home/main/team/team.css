@@ -4,3 +4,9 @@ section.default.team {
     background-position: center;
     padding: 0;
 }
+
+@media (min-width:450px) and (max-width:1150px) {
+    section .section__team {
+        max-width: 580px;
+    }
+}

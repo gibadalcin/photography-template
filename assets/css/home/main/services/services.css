@@ -1,3 +1,20 @@
 .section__services {
     display: flex;
 }
+
+@media (min-width:450px) and (max-width:1150px) {
+    .section__services {
+        flex-wrap: wrap;
+    }
+     .service {
+       min-width: 50%;
+       margin-bottom: 30px;
+    }
+    section .service:first-child {
+        border-left: 0;
+    }
+    section .service:nth-child(2),
+    section .service:nth-child(4) {
+        border-right:0;
+    }
+}
