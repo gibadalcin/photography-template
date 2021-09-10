@@ -10,3 +10,9 @@ section.default.team {
         max-width: 580px;
     }
 }
+
+@media (max-width: 600px) {
+    section .section__team {
+        max-width: 280px;
+    }
+}

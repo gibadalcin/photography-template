@@ -1,9 +1,9 @@
 
-/*controla a exibição dos slides do banner posições -ovw/ -101/ -201vw */
+/*controla a exibição dos slides do banner posições -ovw/ -100.5/ -201vw */
 .banner .slides  {
-    width:  1000vw;
-    height: 100%;
-    margin-left:-0vw;
+    width: 1000vw;
+    height: 100vh;
+    margin-left: -0vw;
 }
 
 /*controla os slides do team margin-left posições -0px / -320/ -620/ -920px*/

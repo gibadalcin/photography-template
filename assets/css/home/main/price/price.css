@@ -18,7 +18,25 @@
         flex-wrap: wrap;
     }
     section .price--item {
-        min-width: 45%;
+        min-width: 47%;
+    }
+    section .price--item:first-child,
+    section .price--item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    section .section__price {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .section__price {
+        flex-wrap: wrap;
+    }
+    section .price--item {
+        min-width: 90%;
     }
     section .price--item:first-child,
     section .price--item:nth-child(2) {

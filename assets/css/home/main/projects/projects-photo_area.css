@@ -5,6 +5,14 @@
     margin-bottom: 20px;
 }
 .projects--photo-area img {
-    width: inherit;
+    width: 100%;
     height: inherit;
+    display: inline-flex;
+}
+
+
+@media (max-width:580px) {
+    .projects--photo-area {
+        width: 300px; 
+    }
 }

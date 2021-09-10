@@ -16,3 +16,12 @@ section.default.light.premium {
     text-align: center;
     font-size: 14px;
 }
+
+
+@media (max-width: 768px) {
+    .default .section__premium {  
+       flex-direction: column;
+       padding: 0 20px;
+    }
+}
+

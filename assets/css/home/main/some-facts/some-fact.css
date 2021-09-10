@@ -1,5 +1,5 @@
 .some--fact {
-    flex: 1;
+    width: 50%;
     text-align: center;
     padding: 15px 20px 10px 20px;
 }
@@ -28,4 +28,18 @@
 .some--fact:first-child h4 {
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .some--fact {
+       margin-bottom: 20px;  
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .some--fact {
+      width: 100%;  
+    }
+    
 }

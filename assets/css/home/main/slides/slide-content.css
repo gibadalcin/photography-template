@@ -33,6 +33,19 @@
     transform: scale(1.1);
 }
 
+@media (max-width:750px) {
+    .banner h1 {
+        font-size: 30px;
+    }
+ }
+
+
+
+
+
+
+
+
 /*conteúdo do slide no team*/
 .team--avatar {
     width: 150px;

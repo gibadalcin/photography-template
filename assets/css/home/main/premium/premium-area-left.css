@@ -3,3 +3,16 @@
     padding: 10px 30px 30px 50px;
     text-align: center;
 }
+.area--left img {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .area--left {
+       display: inline-flex;
+       justify-content: center; 
+    }
+    .area--left img {
+        width: 60%;
+    }
+}

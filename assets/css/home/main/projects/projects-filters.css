@@ -29,3 +29,14 @@
 .projects--filters li:first-child {
     border-left: none;
 }
+
+@media (max-width:580px) {
+    .projects--filters {
+        margin:  0 10px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+    }
+    .projects--filters li {
+        border-left: 1px solid transparent;
+    }
+}

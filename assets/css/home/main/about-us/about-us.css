@@ -20,3 +20,25 @@
         padding: 0 20px;
     }
 }
+
+@media (max-width:450px) {
+    section .section__about-us {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    section .about-us_right {
+       text-align: center;
+       
+    }
+    section .about-us_right img {
+        width: 60%;
+    }
+   section .about-us_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+}

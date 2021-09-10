@@ -13,3 +13,9 @@
 .projects--photo-info {
     display: flex;
 }
+
+@media (max-width:580px) {
+    .projects--photo {
+        width: 300px; 
+    }
+}

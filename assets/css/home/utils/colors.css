@@ -11,7 +11,7 @@
     /*menu.css*/
     --menu-color: rgb(230, 230, 230);
     --menu-color-emphasis_hover: #b28756;
-    --menu-bg_mobile: rgba(0,0,0, 0.8);
+    --menu-bg_mobile: rgba(0,0,0, 0.9);
 
     /*slides/slide.css*/
     --team-slide_bg: #fff;

@@ -1,3 +1,12 @@
 .section__some--facts {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .section__some--facts {
+        flex-wrap: wrap;  
+    }
+    
 }

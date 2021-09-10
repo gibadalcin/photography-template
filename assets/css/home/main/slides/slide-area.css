@@ -9,7 +9,6 @@
     color: var(--color-area);
 }
 
-
 /*manipula a area do slide no team*/
 .section__team .slide__area {
     display: flex;
