@@ -22,3 +22,9 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .fields__bottom {
+        max-width: 90%;
+    }
+}

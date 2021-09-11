@@ -29,3 +29,9 @@
     line-height: 1.4;
     color: var(--premium-item-color_content);
 }
+
+@media (max-width: 768px) {
+    .area--right{
+        margin-bottom: 20px;
+    }
+}

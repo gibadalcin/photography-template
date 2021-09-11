@@ -5,3 +5,10 @@
     border: 1px solid var(--map-bd_area);
     margin: 30px 0 30px 0;
 }
+
+@media (max-width: 768px) {
+    .map__area iframe.map {
+        width: 96vw;
+        margin: 0 auto 20px auto;
+    }
+}

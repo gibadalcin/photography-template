@@ -5,3 +5,12 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+@media (max-width:450px) {
+   
+    section .about-us_right {
+       
+       text-justify:distribute;  
+    }
+    
+}

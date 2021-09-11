@@ -9,6 +9,13 @@
     color: var(--color-area);
 }
 
+@media (max-width:750px) {
+    .banner .slide__area {
+        padding-bottom: 30px ;
+    }
+ }
+
+
 /*manipula a area do slide no team*/
 .section__team .slide__area {
     display: flex;

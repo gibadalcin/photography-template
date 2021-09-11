@@ -32,7 +32,8 @@
 
 @media (max-width:580px) {
     .projects--filters {
-        margin:  0 10px;
+        margin:  0 6px;
+        max-width:96%;
         border-radius: 5px;
         border: 1px solid transparent;
     }

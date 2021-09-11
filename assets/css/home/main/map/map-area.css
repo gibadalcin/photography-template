@@ -6,9 +6,19 @@
     margin: 0 auto;
 }
 
-@media (min-width:450px) and (max-width:1150px) {
+@media (max-width:1150px) {
     .map__area {
         margin-bottom: 150px
+    }
+    .map__info {
+        margin-bottom: -120px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:768px) {
+    .map__area {
+        margin-bottom: 0px
     }
     .map__info {
         margin-bottom: -120px;
