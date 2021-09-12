@@ -13,8 +13,10 @@
 
 ### Material de estudo 
 + Página desenvolvida como prática das linguagens e tecnologias utilizadas, com foco na manipulação de slides, distribuição dos elementos na tela, manipulação de imagens e evolução do aprendizado.
+ 
+ ---
+ 
 ### Layout
----
 <div style="display: flex;">
 
 |     Page Tablet    | Mobile |
