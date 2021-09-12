@@ -31,8 +31,7 @@
     border-bottom: 1px solid var(--menu-color-emphasis_hover);
 }
 
-
-@media (max-width:1150px) {
+@media (max-width:1000px) {
     .menu__opener {
         display: block;
         width: 35px;
