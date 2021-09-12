@@ -12,7 +12,7 @@
 ---
 
 ### Material de estudo 
-+ Página desenvolvida como prática das linguagens e tecnologias utilizadas, com foco na manipulação de slides, distribuição dos elementos na tela, manipulação de imagens e evolução do aprendizado.
++ Página desenvolvida como prática das linguagens e tecnologias utilizadas, com foco na padronização do código HTML e uso de classes no CSS, distribuição dos elementos na tela, manipulação de imagens e evolução do aprendizado.
  
  ---
  
