@@ -4,15 +4,26 @@
 .logo__img {
     background: url('/assets/images/logo.png');
     background-size: contain;
-    width: 80px;
-    height: 80px; 
+    width: 60px;
+    height: 60px; 
     border: 1px solid var(--logo-border-emphasis);
     border-radius: 10px;
 }
-
-@media (max-width:750px) {
+@media (max-width:1040px) {
     .logo__img {
-        width: 60px;
-        height: 60px; 
+        width: 50px;
+        height: 50px; 
+    }
+ }
+ @media (max-width:680px) {
+    .logo__img {
+        width: 50px;
+        height: 50px; 
+    }
+ }
+ @media (min-width: 790px) and (orientation: landscape) {
+    .logo__img {
+        width: 50px;
+        height: 50px; 
     }
  }

@@ -13,6 +13,16 @@
     -webkit-appearance:none;
     background-color: var(--pointer-color-emphasis);
 }
+.slides__pointers input.pointers__default:nth-child(1),
+.slides__pointers input.pointers__default:nth-child(2) {
+    margin-right: 15px;
+}
+
+@media (max-width: 790px) and (orientation: landscape) {
+    .banner .slides__pointers {
+        bottom: 20px;
+    }
+ }
 
 /*pointers do team */
 .section__team--area .slides__pointers {
@@ -26,6 +36,10 @@
     -webkit-appearance:none;
     background-color: var(--pointer-color-emphasis);
 }
+input.pointer__team.pointers__default:nth-child(1),
+input.pointer__team.pointers__default:nth-child(2) {
+        margin-right: 15px;
+    }
 
 /*pointers do testimonials */
 section.testimonials .slides__pointers {
@@ -53,3 +67,6 @@ section.premium .slides__pointers {
     background-color: var(--pointer-color-emphasis);
 }
 
+
+
+    

@@ -9,7 +9,7 @@
     color: var(--color-area);
 }
 
-@media (max-width:750px) {
+@media (max-width:900px) {
     .banner .slide__area {
         padding-bottom: 30px ;
     }
