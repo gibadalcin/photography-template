@@ -34,7 +34,7 @@
 @media (max-width:1000px) {
     .menu__opener {
         display: block;
-        width: 30px;
+        width: 25px;
         margin-right: 30px;
     }
     .menu nav {
@@ -70,11 +70,6 @@
 }
 
 @media (max-width:790px) {
-   .menu__opener {
-        display: block;
-        width: 30px;
-        margin-right: 30px;
-    }
     nav {
         position: absolute;
         justify-content: flex-start;
@@ -107,9 +102,4 @@
     }
 }
 
-@media (max-width: 790px) and (orientation: landscape) {
-    .menu__opener {
-        width: 30px;
-    }
-}
 
