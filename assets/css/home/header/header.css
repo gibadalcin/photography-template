@@ -11,9 +11,12 @@ header {
     align-items: center;
 }
 
-
-@media (max-width:1160px) {
+@media (max-width:1140px) {
     header {
        padding: 0 10px;
+       height: 80px;
+    }
+    .header {
+        height: 80px;
     }
 }

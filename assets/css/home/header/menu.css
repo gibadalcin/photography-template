@@ -34,7 +34,7 @@
 @media (max-width:1000px) {
     .menu__opener {
         display: block;
-        width: 35px;
+        width: 30px;
         margin-right: 30px;
     }
     .menu nav {

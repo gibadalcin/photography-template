@@ -7,6 +7,12 @@
     background-color: var(--transparency_dark);
 }
 
+@media (max-width:1140px) {
+    .banner .slide {
+        height:calc(100vh - 80px);
+    }
+}
+
 /*manipula slide do team */
 .section__team .slide {
     width: 280px;
