@@ -20,7 +20,7 @@
 
 @media (orientation: landscape) {
     .banner .slides__pointers {
-        bottom: 20px;
+        bottom: 10px;
     }
  }
 
