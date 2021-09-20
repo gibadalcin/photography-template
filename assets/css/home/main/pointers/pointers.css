@@ -18,7 +18,7 @@
     margin-right: 15px;
 }
 
-@media (max-width: 790px) and (orientation: landscape) {
+@media (orientation: landscape) {
     .banner .slides__pointers {
         bottom: 20px;
     }

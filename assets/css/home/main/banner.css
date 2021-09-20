@@ -13,3 +13,9 @@
     }
 }
 
+@media (orientation: landscape) {
+    .banner {
+        height:calc(100vh - 60px);
+    }
+ }
+
