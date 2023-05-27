@@ -1,4 +1,4 @@
-# Photography
+# Photography Template
 
 ### Descrição
 + Layout de página 100% responsiva. 
